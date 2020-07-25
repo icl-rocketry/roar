@@ -4,9 +4,11 @@ description: Start here
 
 # Introduction
 
+![](.gitbook/assets/roar.png)
+
 ## Roar?
 
-Roar is my latest update to a hybrid engine design code, moving from MATLAB to Python. And to provide \(much\) better documentation on how it works.
+`Roar` is my latest update to a hybrid engine design code, moving from MATLAB to Python. And to provide \(much\) better documentation on how it works.
 
 ### It allows you to:
 
@@ -26,6 +28,8 @@ The primary objective of this code is to be a guide to sizing an engine, as its 
 {% endhint %}
 
 This entire project is based on "Space Propulsion Analysis and Design" \[SPAD\] by Ronald Humble.
+
+
 
 Documentation: [https://devanshinspace.gitbook.io/roar/](https://devanshinspace.gitbook.io/roar/)
 

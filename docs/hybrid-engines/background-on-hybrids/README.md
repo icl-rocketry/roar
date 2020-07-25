@@ -106,7 +106,7 @@ where
 * $$a$$, $$m$$ and $$n$$ are empirical constants that can be found through experiments. These are often called the 'regression coefficients.'
 
 {% hint style="danger" %}
-Be extremely careful about the units used in this equation. Most sources of experimental data do a remarkably bad job of reporting the units they used in computing the regression coefficients. 
+Be extremely careful about the units used in this equation. Most sources of experimental data do a remarkably bad job of reporting the units they used in computing the regression coefficients. Roar always assumes SI units.
 {% endhint %}
 
 Using this regression estimate, you can figure out how much \(and how fast\) the solid fuel is being converted into gas and burning, and therefore estimate the pressure in the chamber. 
