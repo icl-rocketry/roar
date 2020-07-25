@@ -5,6 +5,7 @@
 ## Hybrid Engines
 
 * [Background on Hybrids](hybrid-engines/background-on-hybrids/README.md)
+  * [Regression Rates](hybrid-engines/background-on-hybrids/regression-rates.md)
   * [Sizing a Hybrid](hybrid-engines/background-on-hybrids/sizing-a-hybrid.md)
 
 ---
