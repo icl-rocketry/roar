@@ -12,7 +12,6 @@
 
 ## Code Walkthrough
 
-* [Code Walkthrough](code-walkthrough/code-walkthrough.md)
 * [Getting Started](code-walkthrough/getting-started.md)
 * [Performing an Initial Sizing](code-walkthrough/performing-an-initial-sizing.md)
 
