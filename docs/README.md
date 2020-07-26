@@ -42,8 +42,13 @@ Dev
 
 ## Get Started:
 
-1. Read Background on Hybrids
-2. Follow Getting Started
+Read Background on Hybrids
+
+{% page-ref page="hybrid-engines/background-on-hybrids/" %}
+
+Get into the code! 
+
+{% page-ref page="getting-started.md" %}
 
 I assume a basic understanding of python, but not much more. The level of physics/thermo background needed is also low to use the tool, but not insignificant to develop new models.
 
