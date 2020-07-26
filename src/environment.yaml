@@ -1,0 +1,46 @@
+name: roarEnv
+channels:
+  - defaults
+dependencies:
+  - astropy=4.0.1.post1=py38h01d97ff_1
+  - autopep8=1.5.3=py_0
+  - blas=1.0=mkl
+  - ca-certificates=2020.6.24=0
+  - certifi=2020.6.20=py38_0
+  - cycler=0.10.0=py38_0
+  - freetype=2.10.2=ha233b18_0
+  - intel-openmp=2019.4=233
+  - kiwisolver=1.2.0=py38h04f5b5a_0
+  - libcxx=10.0.0=1
+  - libedit=3.1.20191231=h1de35cc_1
+  - libffi=3.3=hb1e8313_2
+  - libgfortran=3.0.1=h93005f0_2
+  - libpng=1.6.37=ha441bb4_0
+  - matplotlib=3.2.2=0
+  - matplotlib-base=3.2.2=py38h5670ca0_0
+  - mkl=2019.4=233
+  - mkl-service=2.3.0=py38hfbe908c_0
+  - mkl_fft=1.1.0=py38hc64f4ea_0
+  - mkl_random=1.1.1=py38h959d312_0
+  - ncurses=6.2=h0a44026_1
+  - numpy=1.18.5=py38h1da2735_0
+  - numpy-base=1.18.5=py38h3304bdc_0
+  - openssl=1.1.1g=h1de35cc_0
+  - pip=20.1.1=py38_1
+  - pycodestyle=2.6.0=py_0
+  - pyparsing=2.4.7=py_0
+  - python=3.8.3=h26836e1_2
+  - python-dateutil=2.8.1=py_0
+  - readline=8.0=h1de35cc_0
+  - scipy=1.5.0=py38hbab996c_0
+  - setuptools=49.2.0=py38_0
+  - six=1.15.0=py_0
+  - sqlite=3.32.3=hffcf06c_0
+  - tk=8.6.10=hb0a8c7a_0
+  - toml=0.10.1=py_0
+  - tornado=6.0.4=py38h1de35cc_1
+  - wheel=0.34.2=py38_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+prefix: /usr/local/anaconda3/envs/roarEnv
+
