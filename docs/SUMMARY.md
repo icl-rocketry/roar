@@ -5,8 +5,9 @@
 ## Hybrid Engines
 
 * [Background on Hybrids](hybrid-engines/background-on-hybrids/README.md)
+  * [Fuel and Oxidiser Selection and Thermodynamics](hybrid-engines/background-on-hybrids/fuel-and-oxidiser-selection-and-thermodynamics.md)
   * [Regression Rates](hybrid-engines/background-on-hybrids/regression-rates.md)
-  * [The Math Behind Sizing a Hybrid](hybrid-engines/background-on-hybrids/sizing-a-hybrid.md)
+  * [Sizing a Hybrid \(in detail\)](hybrid-engines/background-on-hybrids/sizing-a-hybrid.md)
 
 ---
 
