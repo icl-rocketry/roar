@@ -4,7 +4,9 @@ description: Start here
 
 # Introduction
 
-![](.gitbook/assets/roar.png)
+![Roar is a set of python files to aid in sizing and simulating a hybrid rocket engine.](.gitbook/assets/roar.png)
+
+
 
 ## Roar?
 
