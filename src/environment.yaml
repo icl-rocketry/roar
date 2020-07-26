@@ -26,11 +26,13 @@ dependencies:
   - numpy=1.18.5=py38h1da2735_0
   - numpy-base=1.18.5=py38h3304bdc_0
   - openssl=1.1.1g=h1de35cc_0
+  - pandas=1.0.5=py38h959d312_0
   - pip=20.1.1=py38_1
   - pycodestyle=2.6.0=py_0
   - pyparsing=2.4.7=py_0
   - python=3.8.3=h26836e1_2
   - python-dateutil=2.8.1=py_0
+  - pytz=2020.1=py_0
   - readline=8.0=h1de35cc_0
   - scipy=1.5.0=py38hbab996c_0
   - setuptools=49.2.0=py38_0

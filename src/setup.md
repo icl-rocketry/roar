@@ -15,8 +15,7 @@ src $ conda activate roarEnv
 Installing the packages
 
 ```
-src $ conda install numpy scipy matplotlib
-src $ conda install -c conda-forge unyt
+src $ conda install numpy scipy matplotlib astropy
 ```
 
 Exporting the environment as a yaml file
