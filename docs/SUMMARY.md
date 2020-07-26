@@ -13,5 +13,6 @@
 ---
 
 * [Getting Started](getting-started.md)
+* [Performing an Initial Sizing](performing-an-initial-sizing.md)
 * [Developing Roar](developing-roar.md)
 

@@ -122,11 +122,11 @@ $$
 $$
 
 $$
-m_{fuel, init} = \frac{m_{prop, init}}{OF_{init} +1 }
+\dot m_{fuel, init} = \frac{\dot m_{prop, init}}{OF_{init} +1 }
 $$
 
 $$
-m_{ox, init} = m_{prop, init} - m_{fuel, init}
+\dot m_{ox, init} = \dot m_{prop, init} - \dot m_{fuel, init}
 $$
 
 
@@ -256,10 +256,10 @@ $$
 > but since the regression rate itself is a function of the length, $$\dot r = a G_{ox} ^ n L ^ m $$, we need to solve for $$L$$,
 
 $$
-L = \left({\frac{\dot m_{fuel}}{a \rho_{fuel} G_{ox}^n P}}\right)^{1/m}
+L = \left({\frac{\dot m_{fuel}}{a \rho_{fuel} G_{ox}^n \mathcal{P}_{init}}}\right)^{1/(m+1)}
 $$
 
-Note: for different regression rate models, the length estimate will be different!
+Note: for different regression rate models, the length estimate will be different! Also, this model does not break for $$m=0$$which is rather helpful.
 
 Now we can also estimate the final diameter of the fuel grains, since we know the total mass of 
 
@@ -280,6 +280,14 @@ $$
 {% hint style="info" %}
 Todo
 {% endhint %}
+
+`COMPUTE` Initial Regression Rate $$\dot r$$\[m/s\]
+
+$$
+\dot r = a G_{ox, max}^n L ^ m
+$$
+
+This number should be on the order of 0.5~3 milimeter per second, unless youve got some really awesome propellants. If you do, please let me know :D
 
 ### 8. Nozzle Sizing
 
@@ -336,6 +344,10 @@ We compute the exit mach number using isentropic expansion theory,
 $$
 M_e^2 = \left(\frac{2}{\gamma-1}\right)\left(\left(\frac{P_{cc}}{P_{e}}\right)^{\frac{\gamma-1}{\gamma}} -1 \right)
 $$
+
+{% hint style="info" %}
+This method could result in very long or large nozzles. Instead you could settle for a smaller exit diameter, have an under-expanded nozzle, but still achieve a large fraction of the thrust. 
+{% endhint %}
 
 `COMPUTE` Exit Temperarte, $$T_e$$\[K\]
 
