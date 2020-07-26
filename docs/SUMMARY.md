@@ -17,5 +17,5 @@
 
 ## Reference
 
-* [Developing Roar](reference/developing-roar.md)
+* [Contributing to Roar](reference/contributing.md)
 
