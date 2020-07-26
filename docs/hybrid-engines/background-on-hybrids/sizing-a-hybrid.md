@@ -345,6 +345,10 @@ $$
 M_e^2 = \left(\frac{2}{\gamma-1}\right)\left(\left(\frac{P_{cc}}{P_{e}}\right)^{\frac{\gamma-1}{\gamma}} -1 \right)
 $$
 
+{% hint style="info" %}
+This method could result in very long or large nozzles. Instead you could settle for a smaller exit diameter, have an under-expanded nozzle, but still achieve a large fraction of the thrust. 
+{% endhint %}
+
 `COMPUTE` Exit Temperarte, $$T_e$$\[K\]
 
 $$
