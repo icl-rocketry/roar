@@ -60,5 +60,5 @@ I assume a basic understanding of python, but not much more. The level of physic
 
 * [ ] better mathematical/thermo models for hybrid
   * [ ] better nitrous modelling.
-* [ ] a module to integrate test results
+* [ ] a module to integrate experimental test results
 
