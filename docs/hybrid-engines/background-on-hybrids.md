@@ -28,7 +28,7 @@ The full details of these are beyond the scope of this documentation - there are
 
 
 
-![Typical Layout for a hybrid](../../.gitbook/assets/schematic-of-a-hybrid-rocket-engine.png.jpeg)
+![Typical Layout for a hybrid](../.gitbook/assets/schematic-of-a-hybrid-rocket-engine.png.jpeg)
 
 Here is a typical layout for a hybrid engine. Starting at the second tank from the left, you have a liquid oxidiser. This means that it is the source of oxygen for combustion to occur. It passes through a control valve \(a tap\) into the injector. The injector is meant to take the cold, high pressure liquid oxidiser and convert it into a gaseous form. There are many possible oxidiers, for instance Liquid Oxygen or Nitrous Oxide. 
 
@@ -52,7 +52,7 @@ Propellant _always_ refers to the _combination_ of both the fuel and the oxidise
 
 What happens inside a hybrid motor? 
 
-![A cross-section of the combustion chamber](../../.gitbook/assets/hybrid-rocket-combustion-model.png)
+![A cross-section of the combustion chamber](../.gitbook/assets/hybrid-rocket-combustion-model.png)
 
 In the simplest form, the combustion chamber has fuel as a ring on the outside, and the middle is empty, for combustion to occur in. 
 
@@ -64,7 +64,7 @@ Starting from the outside \(bottom in the above figure\), you have the outer wal
 
 This all happens within a boundary layer, and naturally this is all a rather complicated process. Here is a less summarized image of whats happening inside the engine:
 
-![How combustion actually happens](../../.gitbook/assets/fig_02.gif)
+![How combustion actually happens](../.gitbook/assets/fig_02.gif)
 
 All of this complexity can be modelled... with great difficulty \(see Chiaverini's book on Hybrids\)
 
@@ -298,15 +298,15 @@ See the page on sizing to see the steps and the equations used in detail. The st
 
 There are some seriously awesome new updates also coming to how Hybrids work. For instance, see the following slide deck for incredible 3D printed hybrids in ABS. 
 
-![3D printed Hybrids are becoming a reality - see the download link for more details](../../.gitbook/assets/strategies-for-3d-printing-advanced-hybrid-rocket-fuel-grains-and-hybridlike-liquid-rocket-motorsadditive-innovationfuller-7-638.jpg)
+![3D printed Hybrids are becoming a reality - see the download link for more details](../.gitbook/assets/strategies-for-3d-printing-advanced-hybrid-rocket-fuel-grains-and-hybridlike-liquid-rocket-motorsadditive-innovationfuller-7-638.jpg)
 
-{% file src="../../.gitbook/assets/69ec713b-d057-4e75-a680-24f234ca6381-161231193449.pdf" caption="3D printed Hybrids" %}
+{% file src="../.gitbook/assets/69ec713b-d057-4e75-a680-24f234ca6381-161231193449.pdf" caption="3D printed Hybrids" %}
 
 This sizing code \(as it stands\) does not compute stuff as complicated as this. 
 
 ## Jump to getting started
 
-{% page-ref page="../../getting-started.md" %}
+{% page-ref page="../code-walkthrough/getting-started.md" %}
 
 
 

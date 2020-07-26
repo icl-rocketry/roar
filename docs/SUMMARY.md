@@ -4,15 +4,19 @@
 
 ## Hybrid Engines
 
-* [Background on Hybrids](hybrid-engines/background-on-hybrids/README.md)
-  * [Fuel and Oxidiser Selection and Thermodynamics](hybrid-engines/background-on-hybrids/fuel-and-oxidiser-selection-and-thermodynamics.md)
-  * [Regression Rates](hybrid-engines/background-on-hybrids/regression-rates.md)
-  * [Sizing a Hybrid \(in detail\)](hybrid-engines/background-on-hybrids/sizing-a-hybrid.md)
-  * [Simulating a Hybrid Engine](hybrid-engines/background-on-hybrids/simulating-a-hybrid-engine.md)
+* [Background on Hybrids](hybrid-engines/background-on-hybrids.md)
+* [Regression Rates](hybrid-engines/regression-rates.md)
+* [Fuel and Oxidiser Selection and Thermodynamics](hybrid-engines/fuel-and-oxidiser-selection-and-thermodynamics.md)
+* [Sizing a Hybrid \(the math\)](hybrid-engines/sizing-a-hybrid.md)
+* [Simulating a Hybrid Engine](hybrid-engines/simulating-a-hybrid-engine.md)
 
 ---
 
-* [Getting Started](getting-started.md)
-* [Performing an Initial Sizing](performing-an-initial-sizing.md)
 * [Developing Roar](developing-roar.md)
+
+## Code Walkthrough
+
+* [Code Walkthrough](code-walkthrough/code-walkthrough.md)
+* [Getting Started](code-walkthrough/getting-started.md)
+* [Performing an Initial Sizing](code-walkthrough/performing-an-initial-sizing.md)
 

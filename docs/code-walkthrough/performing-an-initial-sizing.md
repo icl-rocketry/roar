@@ -203,7 +203,7 @@ roar/src/ (roarEnv) $ python
 
 Currently, it follows the documentation pretty much exactly.
 
-{% page-ref page="hybrid-engines/background-on-hybrids/sizing-a-hybrid.md" %}
+{% page-ref page="../hybrid-engines/sizing-a-hybrid.md" %}
 
 Everything computation is implemented as a simple function, so its modular, and not class specific. All the parameters needed for a calculation must be passed in. As mentioned above there is unit checking, and by default, the `.si` version is returned. You can easily change this for instance
 

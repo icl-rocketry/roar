@@ -2,7 +2,7 @@
 description: Detailed explanation of the equations used in Roar
 ---
 
-# Sizing a Hybrid \(in detail\)
+# Sizing a Hybrid \(the math\)
 
 There are two linked, but separate tools within Roar. 
 
@@ -13,7 +13,7 @@ This section answers point 1.
 
 It generally follows the table by Humble, but flips the orders around a bit
 
-{% page-ref page="./" %}
+{% page-ref page="background-on-hybrids.md" %}
 
 ## Initial Design `roar.size`
 
