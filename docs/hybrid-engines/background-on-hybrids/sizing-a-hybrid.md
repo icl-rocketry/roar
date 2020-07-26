@@ -259,7 +259,7 @@ $$
 L = \left({\frac{\dot m_{fuel}}{a \rho_{fuel} G_{ox}^n \mathcal{P}_{init}}}\right)^{1/(m+1)}
 $$
 
-Note: for different regression rate models, the length estimate will be different!
+Note: for different regression rate models, the length estimate will be different! Also, this model does not break for $$m=0$$which is rather helpful.
 
 Now we can also estimate the final diameter of the fuel grains, since we know the total mass of 
 
@@ -287,7 +287,7 @@ $$
 \dot r = a G_{ox, max}^n L ^ m
 $$
 
-This number should be on the order of a few milimeters per second, unless youve got some really awesome propellants. If you do, please let me know :D
+This number should be on the order of 0.5~3 milimeter per second, unless youve got some really awesome propellants. If you do, please let me know :D
 
 ### 8. Nozzle Sizing
 
