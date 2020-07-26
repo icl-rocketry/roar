@@ -285,12 +285,20 @@ Todo
 
 Since we know the mass flow rate through the nozzle, we can determine the required throat area to choke the flow. 
 
+`COMPUTE` Combustion chamber temperature, $$T_{cc}$$\[K\]
+
+The static temperature \(very close to total temperature assuming the flow is slow\) in the combustion chamber needs to be estimated. I have not found a good method to do this, apart from assuming that we approach the flame temperature.
+
+$$
+T_{cc} \approx T_{flame}
+$$
+
 `COMPUTE` Characteristic Speed of the propellants \[m/s\]
 
 This represents the combustion efficiency independent of nozzle performance.
 
 $$
-c^* = \frac{\sqrt{\gamma R T_{flame}}}{\eta_c \gamma \left(\frac{2}{\gamma+1}\right)^{\frac{\gamma+1}{2 \gamma-2}}}
+c^* = \frac{\sqrt{\gamma R T_{cc}}}{\eta_c \gamma \left(\frac{2}{\gamma+1}\right)^{\frac{\gamma+1}{2 \gamma-2}}}
 $$
 
 `COMPUTE` Throat Area $$A^* $$\[m^2\]
@@ -332,7 +340,7 @@ $$
 `COMPUTE` Exit Temperarte, $$T_e$$\[K\]
 
 $$
-T_e = T_{flame} \left(1 + \frac{\gamma-1}{2} M_e^2\right)^{-1}
+T_e = T_{cc} \left(1 + \frac{\gamma-1}{2} M_e^2\right)^{-1}
 $$
 
 `COMPUTE` Required expansion ratio to acheive desired thrust, $$\epsilon$$ \[-\] and
@@ -346,6 +354,14 @@ $$
 ### And thats it!
 
 `RETURN` Everything
+
+Now, we have a design for the rocket. All the key parameters are figured out, and now we need to check if the design will work for the specs that we want. To do this, we do a full time-domain simulation of the engine.
+
+{% page-ref page="simulating-a-hybrid-engine.md" %}
+
+
+
+
 
 
 
