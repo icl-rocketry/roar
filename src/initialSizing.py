@@ -1,3 +1,27 @@
+"""
+
+# Usage:
+
+Modify the values in the __init__ method below
+
+Run the python file,
+      python initialSizing
+
+This will instantiate the SizingEngine, and run `SizingEngine.size`
+outputs will be printed below.
+
+# Documentation
+Documentation is available at https://devanshinspace.gitbook.io/roar/
+
+# Variable Naming:
+spec: when it is a design spec
+input: when it is a input property (with less or no control over this)
+const: for universal physical constants
+choice: when the user has chosen a specific value
+
+
+"""
+
 from collections import OrderedDict
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,11 +30,6 @@ from astropy import units as u
 
 import roarCore.sizing as roarSizing
 
-
-# spec: when it is a design spec
-# input: when it is a input property (with less or no control over this)
-# const: for universal physical constants
-# choice: when the user has chosen a specific value
 
 
 class SizingEngine:

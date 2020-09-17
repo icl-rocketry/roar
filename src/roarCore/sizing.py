@@ -125,6 +125,12 @@ def diameter_to_area(
 
     return np.pi * diameter**2 / 4
 
+@si
+@u.quantity_input
+def diameter_to_perimeter(diameter: u.m) -> u.m:
+
+    return np.pi * diameter
+
 
 @si
 @u.quantity_input

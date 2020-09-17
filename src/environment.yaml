@@ -1,12 +1,13 @@
 name: roarEnv
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - astropy=4.0.1.post1=py38h01d97ff_1
   - autopep8=1.5.3=py_0
   - blas=1.0=mkl
-  - ca-certificates=2020.6.24=0
-  - certifi=2020.6.20=py38_0
+  - ca-certificates=2020.7.22=0
+  - certifi=2020.6.20=py38h32f6830_0
   - cycler=0.10.0=py38_0
   - freetype=2.10.2=ha233b18_0
   - intel-openmp=2019.4=233
@@ -25,13 +26,14 @@ dependencies:
   - ncurses=6.2=h0a44026_1
   - numpy=1.18.5=py38h1da2735_0
   - numpy-base=1.18.5=py38h3304bdc_0
-  - openssl=1.1.1g=h1de35cc_0
-  - pandas=1.0.5=py38h959d312_0
+  - openssl=1.1.1g=haf1e3a3_1
+  - pandas=1.1.1=py38hb1e8313_0
   - pip=20.1.1=py38_1
   - pycodestyle=2.6.0=py_0
   - pyparsing=2.4.7=py_0
   - python=3.8.3=h26836e1_2
   - python-dateutil=2.8.1=py_0
+  - python_abi=3.8=1_cp38
   - pytz=2020.1=py_0
   - readline=8.0=h1de35cc_0
   - scipy=1.5.0=py38hbab996c_0
