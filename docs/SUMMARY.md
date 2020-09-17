@@ -14,6 +14,7 @@
 
 * [Getting Started](code-walkthrough/getting-started.md)
 * [Performing an Initial Sizing](code-walkthrough/performing-an-initial-sizing.md)
+* [Time-Based Simulation](code-walkthrough/time-based-simulation.md)
 
 ## Reference
 
